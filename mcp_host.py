@@ -26,7 +26,7 @@ def main():
 
     print("\n Requesting Review...\n")
     review = request_review(code, log)
-    print("✅ LLAMA Response:\n", review)
+    print("LLAMA Response:\n", review)
 
 if __name__ == "__main__":
     main()
